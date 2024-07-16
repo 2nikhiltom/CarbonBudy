@@ -1,5 +1,4 @@
-
-@use '@carbon/styles';
+@use "@carbon/styles";
 
 .chat-wrapper {
   width: 100%;
@@ -32,12 +31,15 @@
 }
 
 .answer-tile {
-  width: 400px;
+  width: 56%;
+  height: 50vh;
+
+  margin: auto;
 }
 
 .send-button {
-height: 102px;
-display: flex;
-align-items: center;
-padding: 0;
+  height: 102px;
+  display: flex;
+  align-items: center;
+  padding: 0;
 }

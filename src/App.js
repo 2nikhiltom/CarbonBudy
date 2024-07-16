@@ -7,17 +7,10 @@ import "./styles.scss";
 function App() {
   return (
     <>
+      <ChatInput />
       <div className="chat-wrapper">
-        <Question />
-        <Answer />
-        <Question />
-        <Answer />
-        <Question />
-        <Answer />
-        <Question />
         <Answer />
       </div>
-      <ChatInput />
     </>
   );
 }
